@@ -29,4 +29,6 @@ help_txt = '''
 names = st.multiselect(
     'これらの列を何を意味しますか？',
     ['Remote Host', 'Time', 'Request', 'Status', 'Size', 'User Agent', 'Response Time'],
-    help=help_txt)
+    help=help_txt,
+    label_visibility="visible",
+)
